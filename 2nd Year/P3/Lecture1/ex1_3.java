@@ -50,7 +50,7 @@ public class ex1_3 {
 		System.out.println("Insert the circle radix: ");
 		int radix = sc.nextInt();
 
-        Circulo circulo = new Circulo(1,1,radix);
+        	Circulo circulo = new Circulo(1,1,radix);
 
 		System.out.printf("\nThe perimeter of this circle is" + circulo.perimeterCircle());
 	}
@@ -78,7 +78,7 @@ public class ex1_3 {
 		Circulo circulo2 = new Circulo(x2,y2,r2);
 
 
-        System.out.println("\nEqual: " + circulo1.equalCircles(circulo2) + "\nIntersect: " + circulo1.intersectCircles(circulo2) + 
+        	System.out.println("\nEqual: " + circulo1.equalCircles(circulo2) + "\nIntersect: " + circulo1.intersectCircles(circulo2) + 
                 "\nSame Dimensions: " + circulo1.sameDimension(circulo2));
 				
 	}
